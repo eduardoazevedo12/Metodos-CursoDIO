@@ -1,0 +1,24 @@
+métodos
+devem são criados por uma classe
+nunca funciona sozinho sempre tendo que ser requisitado 
+definem e realizam o que foi setado
+
+os métodos possuem assinaturas
+ass= nome+parâmetros
+
+existem tipos especiais de métodos: 
+construtores: cria objetos
+destrotores: auxilia na destruição desses objetos
+
+o ato de solicitar que um método execute é chamado de MENSAGEM e serve para classes e objetos
+
+BOAS PRATICAS
+nomes devem ser descritivos, mas curtos
+aconselhavel usar a notaçãoCamelo
+para limitar a quantidade de linhas dos métodos vele apena usar métodos que chama outros métodos
+evitar muitos parâmetros
+visibilidades adequadas- saber quando usar métodos privados além dos públicos
+
+
+
+
