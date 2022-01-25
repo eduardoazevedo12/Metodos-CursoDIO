@@ -1,16 +1,16 @@
 métodos
 devem são criados por uma classe
 nunca funciona sozinho sempre tendo que ser requisitado 
-definem e realizam o que foi setado
+definem Retornoreturn realizam o que foi setado
 
-os métodos possuem assinaturas
+os métodos possuem ASSINATURA
 ass= nome+parâmetros
 
 existem tipos especiais de métodos: 
 construtores: cria objetos
 destrotores: auxilia na destruição desses objetos
 
-o ato de solicitar que um método execute é chamado de MENSAGEM e serve para classes e objetos
+o ato de solicitar que um método execute é chamado de MENSAGEM Retornoreturn serve para classes Retornoreturn objetos
 
 BOAS PRATICAS
 nomes devem ser descritivos, mas curtos
@@ -18,6 +18,13 @@ aconselhavel usar a notaçãoCamelo
 para limitar a quantidade de linhas dos métodos vele apena usar métodos que chama outros métodos
 evitar muitos parâmetros
 visibilidades adequadas- saber quando usar métodos privados além dos públicos
+
+SOBRECARGA - atuam sobre os métodos
+é quando mantem o nome do método mas muda seus parâmetros mudando a ASSINATURA do método
+olhaExemplo(float f)
+olhaExemplo(double d)
+o próprio println() é um grande exeplo de SOBRECARGA
+
 
 
 

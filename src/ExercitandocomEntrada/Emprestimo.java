@@ -5,7 +5,7 @@ public class Emprestimo {
         double taxa;
         if(parcelas>6){
             System.out.println("Você só pode parcelar até 6 vezes. Desculpe.");
-        }else {
+            return;}
             System.out.println("O valor do emprestimo será: " + valor + " R$ ");
             if (parcelas == 1) {
                 taxa = (parcelas * 0);
@@ -22,4 +22,4 @@ public class Emprestimo {
             }
         }
     }
-}
+
